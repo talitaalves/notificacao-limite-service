@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: br.com.itau.notificacao.limite.notificacao.limite.service.NotificacaoLimiteServiceApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.906 s - in br.com.itau.notificacao.limite.notificacao.limite.service.NotificacaoLimiteServiceApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.603 s - in br.com.itau.notificacao.limite.notificacao.limite.service.NotificacaoLimiteServiceApplicationTests

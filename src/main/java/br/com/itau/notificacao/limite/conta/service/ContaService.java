@@ -16,9 +16,7 @@ import br.com.itau.notificacao.limite.log.domain.factory.LogEnvioNotificacaoFact
 import br.com.itau.notificacao.limite.log.service.LogEnvioNotificacaoService;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 
-@Slf4j
 @Service
 @RequiredArgsConstructor 
 public class ContaService {
@@ -59,7 +57,7 @@ public class ContaService {
 		if(limite < novaMovimentacaoDTO.getValorMovimentado()) {
 			
 			this.envioNotificacao.enviaEmail(emailFactory.createFrom(conta.getCliente()));
-			logNotificacaoService.salvarLog(logFactory.createFrom(conta,"Limite excedido 2."));
+			logNotificacaoService.salvarLog(logFactory.createFrom(conta,"Limite excedidos."));
 		}
 		
 	}
