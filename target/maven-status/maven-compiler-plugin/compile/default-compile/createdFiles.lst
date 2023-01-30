@@ -1,0 +1,15 @@
+br\com\itau\notificacao\limite\cliente\repository\ClienteRepository.class
+br\com\itau\notificacao\limite\conta\domain\NovaContaDTO.class
+br\com\itau\notificacao\limite\cliente\service\exception\ClienteNaoEncontradoException.class
+br\com\itau\notificacao\limite\conta\service\ContaService.class
+br\com\itau\notificacao\limite\conta\domain\factory\ContaFatctory.class
+br\com\itau\notificacao\limite\cliente\domain\entity\Cliente.class
+br\com\itau\notificacao\limite\conta\domain\entity\Conta.class
+br\com\itau\notificacao\limite\log\repository\LogEnvioNotificacaoRepository.class
+br\com\itau\notificacao\limite\conta\repository\ContaRepository.class
+br\com\itau\notificacao\limite\conta\service\ContaMovimentacaoService.class
+br\com\itau\notificacao\limite\cliente\controller\ClienteController.class
+br\com\itau\notificacao\limite\log\domain\entity\LogEnvioNotificacao.class
+br\com\itau\notificacao\limite\conta\controller\ContaController.class
+br\com\itau\notificacao\limite\NotificacaoLimiteServiceApplication.class
+br\com\itau\notificacao\limite\cliente\service\ClienteService.class
